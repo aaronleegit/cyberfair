@@ -16,3 +16,9 @@ iframe {
     height: 900px;
     width: 100%;
 }
+
+.photo, .phototh, .phototd {
+    border: 1px solid transparent !important;
+    margin: 10px !important;
+    text-align: left !important;
+}
