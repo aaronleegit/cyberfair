@@ -1,6 +1,7 @@
 body {
 	background-image: url("../img/background.png");
-	font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+	font-family: "Microsoft JhengHei","微軟正黑體",sans-serif !important;
+	font-size: 1.3em;
 }
 
 header {
@@ -10,15 +11,15 @@ header {
 
 h1 {
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.3em;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 1.9em;
 }
 
 h3 {
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 
 img {
@@ -39,7 +40,7 @@ h1 p {
     padding: 0 0.5em;
     position: relative;
     top: -0.6em;
-    background-image: url(../img/background.png);
+	background-image: url("../img/background.png");
 }
 
 .m-line {
@@ -52,17 +53,19 @@ h1 p {
 
 p {
 	margin-top: 1em;
-	font-size : 1em;
 }
 
 table {
 	margin-bottom : 2em;
 }
 
+th {
+	font-size: 1.3em;
+}
+
 th, td {
     border: 0.2em solid brown;
 	padding: 0.5em 1em;
-	font-size: 1.2em;
 }
 
 th {
@@ -71,7 +74,6 @@ th {
 
 td p {
     padding: 0.5em 1em;
-    font-size: 1.2em;
 	margin:0;	
 }
 
@@ -93,8 +95,8 @@ img.l-img {
 
 .container {
     height: 100%;
-    width: 100%;
-	margin-bottom:300px;
+	width: 100%;
+	overflow: hidden;
 }
 
 .navbar-collapse {
@@ -103,7 +105,7 @@ img.l-img {
 
 .navbar {
 	margin-bottom: 2em;
-	width: 1400px;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -144,10 +146,9 @@ iframe {
 }
 
 .footer-dark {
-	background:#A23400;
+	background: #642100;
 	width: 100%;
-    position: fixed;
-    bottom: 0;
+	margin-top: 2em;
 }
 
 footer {
@@ -156,7 +157,6 @@ footer {
 }
 
 .interview {
-	font-size: 0.8em;
 	color: white;
 	background-color: #8b794b;
 	height: 200px;
@@ -164,27 +164,132 @@ footer {
 	margin-top: 1em;
 }
 
+.interview.en {
+	height: 240px;
+}
+
 .interview img{
 	width: 12em;
 	margin-right: 0.5em;
 	border-radius: 0;
-	
+	width:8em;
 }
-img.npm-2 {
-	width:20%;
+
+.interview.en img{
+	width:9em;
 }
-img.npm-3 {
-	width:30%;
+
+.interview h2 {
+	font-size: 1.5em;
 }
+
+.interview p {
+	font-size: 0.8em;
+	margin: 0.2em 0;
+}
+
 .w-2 {
 	width:20%;
 }
+
 .w-3 {
 	width:30%;
 }
+
 .w-4 {
 	width:40%;
 }
+
 .w-5 {
 	width:50%;
+}
+
+.reference {
+	color: red;
+	font-size: 0.3em;
+}
+
+.col-lg-5.col-xl-5 img {
+	display: none;
+}
+
+.team {
+	border-radius: 0;
+	display: none;
+	position: relative;
+}
+
+.team.p1 {
+	top: -100%;
+}
+
+.team.p2 {
+	top: -200%;
+}
+
+.team.p3 {
+	top: -300%;
+}
+
+.team.p4{
+	top: -400%;
+}
+
+.team.p5{
+	top: -500%;
+}
+
+span.name {
+	position: relative;
+	padding: 0.2em;
+	border-radius: 0.4em;
+	border:1px solid yellow;
+	display:none;
+	opacity:0.7;
+}
+span.p1 {
+	top: -585%;
+	left: 10%;
+	background-color:white;
+}
+span.p2 {
+	top: -580%;
+	left: 17%;
+	background-color:white;
+}
+
+span.p3 {
+	top: -588%;
+	left: 22%;
+	background-color:white;
+}
+
+span.p4 {
+	top: -580%;
+	left: 32%;
+	background-color:white;
+}
+
+span.p5 {
+	top: -580%;
+	left: 42%;
+	background-color:white;
+}
+
+span.p6 {
+	top: -585%;
+	left: 51%;
+	background-color:white;
+}
+#Time_BG {
+	margin:0px;
+	padding:0px;
+	background:#fff url(../img/conclusion/Time_BG.jpg) center center fixed no-repeat;　//設定背景圖片的呈現方式
+	background-size: cover;　/*設定背景圖片的填滿方式*/
+}
+
+.teacher {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
 }
