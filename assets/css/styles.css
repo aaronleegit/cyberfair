@@ -209,10 +209,6 @@ footer {
 	font-size: 0.3em;
 }
 
-.col-lg-5.col-xl-5 img {
-	display: none;
-}
-
 .team {
 	border-radius: 0;
 	display: none;
@@ -284,7 +280,7 @@ span.p6 {
 #Time_BG {
 	margin:0px;
 	padding:0px;
-	background:#fff url(../img/conclusion/Time_BG.jpg) center center fixed no-repeat;　//設定背景圖片的呈現方式
+	background:#fff url(../img/conclusion/Time_BG.jpg) center center fixed no-repeat;　/*設定背景圖片的呈現方式*/
 	background-size: cover;　/*設定背景圖片的填滿方式*/
 }
 
