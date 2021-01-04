@@ -91,7 +91,7 @@
     <div class="footer-dark">
         <footer>
             <div class="col">
-                <div class="row" style="height: 152px;">
+                <div class="row" >
                     <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2 item" style="height: 100%;">
                         <ul>
                             <li></li>
@@ -126,7 +126,8 @@
         $(function () {
 
             $('#Time_BG').width($('img.p0').width());
-            $('#Time_BG').height($('img.p0').height())
+            //$('#Time_BG').height($('img.p0').height())
+			$('#Time_BG').height($('img.p0').width()*1333/2000);
 
             $('img.p1').fadeIn(5000, function () {
                 $('span.p1').show();

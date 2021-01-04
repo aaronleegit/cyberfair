@@ -159,24 +159,23 @@ footer {
 .interview {
 	color: white;
 	background-color: #8b794b;
-	height: 200px;
+	height: 210px;
 	padding-right:0.5em;
 	margin-top: 1em;
 }
 
 .interview.en {
-	height: 240px;
+	height: 260px;
 }
 
 .interview img{
-	width: 12em;
 	margin-right: 0.5em;
 	border-radius: 0;
-	width:8em;
+	width: 8em;
 }
 
 .interview.en img{
-	width:9em;
+	width: 10em;
 }
 
 .interview h2 {
@@ -288,4 +287,9 @@ span.p6 {
 	margin-left: 10%;
 	margin-right: 10%;
 	width: 80%;
+}
+
+footer div.col-xl-2 img {
+	width: 60% !important;
+	height: auto !important;
 }
