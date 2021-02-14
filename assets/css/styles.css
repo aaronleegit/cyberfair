@@ -288,3 +288,31 @@ footer div.col-xl-2 img {
 	width: 60% !important;
 	height: auto !important;
 }
+
+.noborder {
+	border: 0;
+}
+
+.noborder tr {
+	border: 0;
+}
+
+.noborder th {
+	border: 0;
+}
+
+.noborder tr th {
+	border: 0;
+}
+
+.noborder tr td {
+	border: 0;
+}
+
+.l-img {
+	margin-right: 20px;
+}
+
+.carousel-item img {
+	width: 100%;
+}
