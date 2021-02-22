@@ -71,8 +71,6 @@
   opacity: 1;
 }
 
-/* * {    border: 1px solid black;} */
-
 .list {
   display: flex;
   justify-content: center;
@@ -117,7 +115,3 @@
   width: 100% !important;
   display: block;
 }
-
-body {
-}
-
