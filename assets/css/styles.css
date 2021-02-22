@@ -291,7 +291,7 @@ span.p6 {
 #Time_BG {
 	margin:0px;
 	padding:0px;
-	background:#fff url(../img/conclusion/Time_BG.jpg) center center fixed no-repeat;　/*設定背景圖片的呈現方式*/
+	background:#fff url(../img/conclusion/Time_BG.jpg) center center fixed no-repeat;
 	background-size: cover;
 }
 
