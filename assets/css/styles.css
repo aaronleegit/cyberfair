@@ -23,7 +23,7 @@ header {
 h1 {
 	text-align: center;
 	font-size: 2.3em;
-	font-weight: bolder !important;
+	font-weight: 900 !important;
 }
 
 h2 {
@@ -47,9 +47,10 @@ h1 span {
 	position: relative;
     top: 0.2em;
 	position: relative;
-	background-color:#8b794b;
+	background-color: #8b794b;
 	padding: 0 0.3em;
 	color:white;
+	letter-spacing: 3px;
 }
 
 h1 p {
@@ -99,15 +100,17 @@ p img {
 }
 
 td img {
-	width:105%;
+	width:100%;
 }
 
 img.r-img {
 	float: right;
+	margin-top: 8px;
 }
 
 img.l-img {
 	float: left;
+	margin-top: 8px;
 }
 
 .container {
@@ -334,4 +337,7 @@ footer div.col-xl-2 img {
 
 .carousel-item img {
 	width: 100%;
+}
+#restoration-tb td {
+	padding: 0.5em 0;
 }
