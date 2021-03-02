@@ -152,30 +152,36 @@
     <script>
         $(function () {
 
-            $('#Time_BG').width($('img.p0').width());
-            //$('#Time_BG').height($('img.p0').height())
-            $('#Time_BG').height($('img.p0').width() * 1333 / 2000);
+            var $browser = navigator.userAgent;
+            //console.log($browser);
+            if ($browser.indexOf("Safari") != -1 && !($browser.indexOf("Chrome") != -1)) {
+                $('#Time_BG').html('<img src="../assets/img/conclusion/unnamed.png" width="100%" />');
+            } else {
+                $('#Time_BG').width($('img.p0').width());
+                //$('#Time_BG').height($('img.p0').height())
+                $('#Time_BG').height($('img.p0').width() * 1333 / 2000);
 
-            $('img.p1').fadeIn(5000, function () {
-                $('span.p1').show();
-            });
-            $('img.p2').show(6000, function () {
-                $('span.p2').show();
-                $('span.p3').show();
-            });
-            $('img.p3').slideDown(7000, function () {
-                $('span.p4').show();
-            });
-            $('img.p4').fadeIn(6000, function () {
-                $('span.p5').show();
-            });
-            $('img.p5').show(6500, function () {
-                $('span.p6').show();
-            });
+                $('img.p1').fadeIn(5000, function () {
+                    $('span.p1').show();
+                });
+                $('img.p2').show(6000, function () {
+                    $('span.p2').show();
+                    $('span.p3').show();
+                });
+                $('img.p3').slideDown(7000, function () {
+                    $('span.p4').show();
+                });
+                $('img.p4').fadeIn(6000, function () {
+                    $('span.p5').show();
+                });
+                $('img.p5').show(6500, function () {
+                    $('span.p6').show();
+                });
 
-            $('.team').click(function () {
-                console.log($(this).attr('src'));
-            })
+                $('.team').click(function () {
+                    console.log($(this).attr('src'));
+                })
+            }
 
         })
     </script>
