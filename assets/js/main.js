@@ -19,4 +19,17 @@ $r_img.each(function(){
 		$parent.height($this.height());
 	}
 })
+/***文章層次***/
+$('p').each(function(){
+	//console.log($(this).prev().prop("tagName"));
+	if($(this).prev().prop("tagName")=='H3'){
+		$(this).css('margin-left','1.5em');
+	}
+})
+$('H3').each(function(){
+	//console.log($(this).prev().prop("tagName"));
+	if($(this).prev().prop("tagName")=='H2'){
+		$(this).css('margin-left','0.6em');
+	}
+})
 /******/

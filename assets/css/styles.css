@@ -113,6 +113,11 @@ img.l-img {
 	margin-top: 8px;
 }
 
+.narrative-list {
+	width: 50%;
+    margin: 0 auto;	
+}
+
 .container {
     height: 100%;
 	width: 100%;
