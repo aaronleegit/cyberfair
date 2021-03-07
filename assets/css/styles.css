@@ -90,11 +90,6 @@ th {
     text-align: center;
 }
 
-td p {
-    padding: 0.5em 1em;
-	margin:0;	
-}
-
 p img {
 	margin:0;
 }
@@ -346,3 +341,56 @@ footer div.col-xl-2 img {
 #restoration-tb td {
 	padding: 0.5em 0;
 }
+
+p.tab {
+	margin-top: 0;
+	margin-left: 10px;
+	margin-bottom: 3px;
+}
+
+b.aboveTab {
+	margin-bottom: 0;
+}
+
+div.post hr {
+	border-top: 5px solid rgba(0,0,0,.1);
+}
+.post h1{
+	color:brown;
+}
+li span.title{
+	border-bottom: 1px solid;
+}
+/**backtoTop**/
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
