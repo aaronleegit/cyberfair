@@ -394,3 +394,8 @@ li span.title{
 	right: 0.5rem;
 }
 .toTop-arrow:focus {outline: none;}
+
+td p {
+    padding: 0.5em 1em;
+	margin:0;	
+}
